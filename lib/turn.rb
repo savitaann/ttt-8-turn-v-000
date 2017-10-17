@@ -38,7 +38,8 @@ def valid_move?(board, index)
     puts "Please enter 1-9:"
     user_input = gets.strip
     input_to_index(user_input)
-    if valid_move?(board, 0) == true
+    x = valid_move?(board, 0)
+    if x == true
       move(board, index, char = "X")
       display_board(board)
     else
