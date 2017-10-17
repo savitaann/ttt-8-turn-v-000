@@ -43,7 +43,7 @@ def valid_move?(board, index)
       display_board(board)
     else
       until valid_move?(board, 0) == true
-        puts "Please enter 1-9:"
+        puts "Invalid Move. Please enter 1-9:"
   end
 end
 end
