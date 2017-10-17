@@ -44,4 +44,3 @@ def valid_move?(board, index)
     turn(board)
   end
 end
-
